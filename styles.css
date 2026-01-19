@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(26, 11, 46, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.navbar{
+    max-width: 1200px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navmanu{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+.navlogo{
+    font-size: 1.8em;
+}
+.navlogo h3 span{
+    color: transparent;
+    background: linear-gradient(to right , rgba(247, 233, 63, 1) rgba(251, 9, 180, 1) rgba(145, 0, 248, 1)) ;
+    -webkit-background-clip: text;
+    background-clip: text;
+    display: inline-block;
+}
