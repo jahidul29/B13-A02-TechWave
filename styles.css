@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     background-color: rgba(26, 11, 46, 1);
     color: rgba(255, 255, 255, 1);
 }
@@ -13,6 +14,9 @@
 .bg-gradient{
     background: linear-gradient(to top right, rgb(250, 250, 66),rgb(235, 14, 50) ,blue);
 }
+
+/* navbar */
+
 .hamburger{
     display: none;
 }
@@ -23,7 +27,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 20px;
+    padding: 0px 20px;
 }
 
 .navmanu{
@@ -48,11 +52,52 @@
     background-color: transparent;
 }
 
+/* Banner section */
+
+.About{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 200px 50px;
+}
+.about-hdr{
+    font-size: 2em;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.about-p{
+    font-style: Regular;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 80px;
+    border-bottom: 0.5px solid rgba(128, 128, 128, 0.5);
+}
+
+.about-card{
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    padding-bottom: 120px;
+}
+.about-card h1{
+    color: rgba(0, 255, 136, 1);
+    padding-bottom: 16px;
+}
+
+
+
+
+
+
 /* medium Device */
     
 @media screen and (min-width:576px) and (max-width:992px) {
     .navbar{
         max-width: 992px;
+        margin: 20px auto;
+        padding: 0px 20px;
     }
     .navmanu{
         display: none;
@@ -60,11 +105,28 @@
     .hamburger{
         display: inline;
     }
+    .About{
+    max-width: 992px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 20px 50px;}
+    
+    .about-card{
+    padding-top: 80px;
+    display: grid;
+    grid-template-columns:repeat(2 , 1fr);
+    grid-template-rows: repeat(2 , 1fr);
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 120px;}
 }
+
+
 /* movile device */
 @media screen and (max-width: 576px){
     .navbar{
         max-width: 440px;
+        padding: 0 20px;
     }
     .navmanu , .navsub{
         display: none;
@@ -72,6 +134,19 @@
     .hamburger{
         display: inline;
     }
-    
+    .About{
+    max-width: 576px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 20px 50px;}
+
+    .about-card{
+    padding-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-template-rows: repeat(2 , 1fr);
+    gap: 20px;
+    padding-bottom: 120px;}
+
 }
 
