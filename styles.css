@@ -86,6 +86,59 @@
     padding-bottom: 16px;
 }
 
+.whyUS-container{
+    max-width: 1600px;
+    /* border: 1px solid white; */
+    margin: 0 auto;
+    display: grid;
+    padding: 10px;
+    background-color: rgba(35, 14, 61, 1);
+}
+.grid{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: repeat(3 , 1fr);
+    justify-content: space-between;
+    gap: 20px;
+}
+.whyush2{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    overflow: hidden;
+    text-align: center;
+    font-style: Bold;
+font-size: 48px;
+font-weight: 700;
+background: rgba(35, 14, 61, 1)
+}
+.box{
+    min-height: 200px;
+    width: 100%;
+    border: 1px solid skyblue;
+    border-radius: 20px;
+    display: grid;
+    align-items: center;
+    text-align: center;
+}
+
+.item1{
+    display: grid;
+    grid-row: span 2;
+}
+.item2{
+    display: grid;
+    grid-column: span 2;
+}
+.item3{
+    display: grid;
+    grid-column: span 2;
+}
+.item4{
+    display: grid;
+    grid-column: span 2;
+}
 
 
 
