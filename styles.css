@@ -199,7 +199,7 @@ background: rgba(35, 14, 61, 1)
     border-radius: 20px;
     /* border: 2px solid white; */
     background-color: rgba(37, 13, 68, 1);
-    padding: 25px;
+    /* padding: 25px; */
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -222,7 +222,66 @@ padding-bottom: 10px;
     padding: 10px 0;
 }
 
+.fcardtitle, .fcardp , .timetag{
+    padding: 25px;
+}
 
+.mth-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 120px;
+}
+
+.sectitle{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.bottomsec{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+    background-color: rgba(37, 13, 68, 1);
+    padding: 40px;
+    border-radius: 30px;
+}
+
+.secimg{
+    background-color: rgba(37, 13, 68, 1);
+}
+
+.secrighthead{
+    font-size: 32px;
+font-weight: 700;
+background-color: rgba(37, 13, 68, 1);
+}
+.secp{
+    padding: 20px 0px;
+    background-color: rgba(37, 13, 68, 1);
+}
+
+.mthicons{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: rgba(37, 13, 68, 1);
+}
+.icn{
+    border: 1px solid gray;
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    background-color: transparent;
+}
+.secp{
+    color: rgba(255, 255, 255, 0.507);
+    font-size: 16px;
+font-weight: 400;
+line-height: 24px;}
 
 
 
@@ -321,7 +380,28 @@ padding-bottom: 10px;
     font-size: 40px;
     font-weight: 600;
     padding: 60px 0 40px;}
+.bottomsec{
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    align-items: center;
+    padding: 40px;
+    border-radius: 30px;}
 
+    .mthicons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;}
+    
+    .sectitle{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 50px;
+    padding-bottom: 40px;}
 }
 
 
@@ -417,5 +497,28 @@ padding-bottom: 10px;
     font-size: 30px;
     font-weight: 600;
     padding: 50px 0 30px;}
+        .bottomsec{
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    align-items: center;
+    padding: 40px;
+    border-radius: 30px;}
+
+    .mthicons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;}
+
+    .sectitle{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
 }
 
