@@ -425,20 +425,20 @@ line-height: 24px;}
     align-items: center;
     border-top: 1px solid rgba(71, 69, 69, 0.445);
     /* border: 1px solid white; */
-    text-align: center;
+    text-align: center;}
+    
     .About{
     max-width: 992px;
-    margin: 0 auto;
+    margin: 0 20px;
     text-align: center;
     padding: 20px 20px 50px;}
-    
-    .about-card{
+
+.about-card{
     padding-top: 80px;
     display: grid;
-    grid-template-columns:repeat(2 , 1fr);
+    grid-template-columns: repeat(2 , 1fr);
     grid-template-rows: repeat(2 , 1fr);
-    align-items: center;
-    gap: 30px;
+    gap: 40px;
     padding-bottom: 120px;}
    
     .grid{
@@ -557,12 +557,15 @@ line-height: 24px;}
 
 
 /* movile device */
-@media screen and (max-width: 576px){
+@media screen and (max-width: 575px){
     .navbar{
-        max-width: 440px;
+        max-width: 576px;
         padding: 0 20px;
     }
-    .navmanu , .navsub{
+    .navmanu{
+        display: none;
+    }
+    .navsub{
         display: none;
     }
     .hamburger{
